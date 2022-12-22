@@ -1,0 +1,98 @@
+body{
+    font-family: Inter ;
+    background-color: black;
+}
+
+#rectangle{
+    background-color: #1F2937;
+    width: 550px;
+    height: 729px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+#purple-rectangle{
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+    position: absolute;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+h3{
+    margin:30px 50px auto 50px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+#number-center-of-purple{
+    font-size: 58px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    margin: 30px  auto ;
+    display: block;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    text-align: center;
+}
+#btn-convert{
+    background-color: #FFFFFF;
+    border:none;
+    border-radius: 5px;
+    padding:9px 27.5px;
+    margin: 0px auto 34px auto;
+    transition-duration:0.4s ;
+}
+#btn-convert:hover{
+    opacity: .9;
+    transition-duration: .4s;
+}
+
+#btn-convert:active{
+    scale: .9;
+    transition-duration: .4s;
+    background-color:white;
+    transition-duration:0.4s ;
+}
+#btn-convert::after{
+    opacity: 1;
+    color:#FFFFFF;
+}
+
+
+.grey-rectangle{
+    width: 500px;
+    height: 108.57px;
+    background-color: #273549;
+    position: absolute;
+}
+#first-rect{
+    margin: 36px 25px auto 25px;
+}
+#sec-rect{
+    margin:168px 25px auto 25px;
+}
+#third-rect{
+    margin:300px 25px auto 25px;
+}
+.rect{
+    font-size: large;
+    position: relative;
+}
+#sect1{
+    margin: 31px 77px auto 77px;
+}
+#meters-feet{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#error{
+width: fit-content;
+margin: auto;
+color:orange;
+}

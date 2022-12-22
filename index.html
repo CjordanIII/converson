@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric/Imperial unit Conversion</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div id="rectangle">
+            <div id="purple-rectangle">
+                <h3> Metric/Imperial Unit Conversion</h3>
+                <input type="text" placeholder="20" id="number-center-of-purple"></input>
+                <button id="btn-convert" onclick="getValue();lengthFoot();valumeGallon();MassKiolgrams()">Convert</button>
+                <p id="error"></p>
+                <div id="grey-rectangles">
+                    <div class="grey-rectangle" id="first-rect">
+                        <p class="rect" id="sect1"> Length (Meter/Feet)</p>
+                        <p id="meters-feet"></p>
+
+                    </div>
+                    <div class="grey-rectangle" id="sec-rect">
+                        <p class="rect" id="sect1"> Volume (Liters/Gallons)</p>
+                        <p id="gallons-litters"></p>
+
+                    </div>
+                </div>
+                <div class="grey-rectangle" id="third-rect">
+                    <p class="rect" id="sect1"> Mass (Kilograms/Pounds)</p>
+                    <p id="kilos-pound"></p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
